@@ -1,0 +1,365 @@
+@font-face
+  font-family: 'GothamProMed'
+  src: url('/fonts/GothaProMed.otf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'GothamProReg'
+  src: url('/fonts/GothaProReg.otf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'GothamProBold'
+  src: url('/fonts/GothaProBol.otf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'GothamProBoldItalic'
+  src: url('/fonts/GothaProBolIta.otf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'GothamProItalic'
+  src: url('/fonts/GothaProIta.otf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+body
+  padding: 0px
+  margin: 0px
+  font-family: 'GothamProReg', 'Helvetica', 'Arial', sans-serif
+  background: #fff
+  min-width: 1024px
+
+
+.wrapper
+  width: 960px
+  margin: 0px auto
+
+.clearfix
+  &:after
+    clear: both
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+.relative
+  position: relative
+
+.inheritance-height
+  height: 100%
+
+.button
+  width: 400px
+  height: 70px
+  background: url('/images/big_red_button_2.png') no-repeat
+  cursor: pointer
+
+
+
+section
+  padding: 80px 0
+
+  &.models
+
+    width: 100%
+    height: 505px
+    background: url('/images/models_bg.jpg') no-repeat
+    background-position: center
+
+    .title
+      color: #fff
+
+
+  .title
+    font-size: 44px
+    font-family: "GothamProBoldItalic"
+    line-height: 1.3
+    color: #212326
+    text-align: center
+    margin-bottom: 55px
+
+
+
+.arrow
+  width: 80px
+  height: 65px
+  cursor: pointer
+  z-index: 9999
+
+
+  &.left
+    position: absolute
+    top: 107px
+    left: 0px
+    background: url('/images/left_arrow.png') no-repeat
+
+  &.right
+    position: absolute
+    top: 107px
+    right: 0px
+    background: url('/images/right_arrow.png') no-repeat
+
+
+.samples
+  width: 960px
+  height: 280px
+  position: relative
+
+
+  .bx-wrapper
+    width: 960px
+    height: 280px
+
+    .bx-viewport
+      height: 280px !important
+
+      .samples-slider
+        width: 960px
+        height: 280px
+
+
+        .sample
+          width: 960px
+          height: 280px
+
+
+          &.first
+            background: url('/images/audi_1.jpg') no-repeat
+
+          &.second
+            background: url('/images/audi_2.jpg') no-repeat
+
+
+          .info
+            padding-left: 480px
+            padding-top: 45px
+
+            .info-name
+              margin-left: 20px
+              width: 330px
+              height: 60px
+              line-height: 60px
+              background: url('/images/gray_border_330_60.png') no-repeat
+              text-align: center
+              font-family: "GothamProBoldItalic"
+              font-size: 20px
+              color: #212326
+
+            .info-params
+              padding-top: 40px
+              .param
+                width: 390px
+                margin-bottom: 30px
+                .param-name
+                  float: left
+                  width: 180px
+                  text-align: right
+                  font-family: "GothamProBoldItalic"
+                  font-size: 14px
+                  color: #212326
+
+                .param-value
+                  float: right
+                  width: 180px
+                  text-align: left
+                  font-family: "GothamProBoldItalic"
+                  font-size: 16px
+                  color: #8e9599
+
+                  .red
+                    font-size: 20px
+                    color: #b01d1d
+
+.models
+  width: 960px
+  height: 280px
+  position: relative
+
+
+  .bx-wrapper
+    width: 960px
+    height: 280px
+
+    .bx-viewport
+      height: 280px !important
+
+
+      .models-slider
+        width: 960px
+        height: 280px
+
+        .model
+
+          &.first
+            background: url('/images/chip_1.png') no-repeat
+            background-position: right
+
+          &.second
+            background: url('/images/chip_2.png') no-repeat
+            background-position: right
+
+          &.third
+            background: url('/images/chip_3.png') no-repeat
+            background-position: right
+
+
+          .info
+            padding-left: 120px
+            padding-top: 45px
+
+            .info-name
+              margin-left: 20px
+              width: 330px
+              height: 60px
+              line-height: 60px
+              background: url('/images/red_border_330_60.png') no-repeat
+              text-align: center
+              font-family: "GothamProBoldItalic"
+              font-size: 20px
+              color: #fff
+
+            .info-params
+              padding-top: 40px
+              .param
+                width: 390px
+                margin-bottom: 30px
+                .param-name
+                  float: left
+                  width: 240px
+                  text-align: right
+                  font-family: "GothamProBoldItalic"
+                  font-size: 14px
+                  color: #fff
+
+                .param-value
+                  float: right
+                  width: 120px
+                  text-align: left
+                  font-family: "GothamProBoldItalic"
+                  font-size: 16px
+                  color: #8e9599
+
+                  .red
+                    font-size: 20px
+                    color: #b01d1d
+
+
+.offer
+  width: 875px
+  height: 95px
+  margin: 0px auto
+  margin-top: 35px
+  background: url('/images/gray_border_875_120.png') no-repeat
+  padding-top: 25px
+
+
+  .offer-text
+    float: left
+    margin-right: 25px
+    width: 410px
+    text-align: right
+    color: #fff
+    font-family: "GothamProBoldItalic"
+    font-size: 20px
+    line-height: 1.3
+
+  .button
+    float: left
+
+
+
+
+.process
+  .step
+    float: left
+    width: 320px
+    height: 125px
+
+    .trigger
+      width: 250px
+      height: 125px
+      margin: 0px auto
+
+      .icon
+        width: 65px
+        height: 65px
+        margin: 0px auto
+
+      .text
+        padding-top: 20px
+        font-family: "GothamProBoldItalic"
+        color: #212426
+        font-size: 14px
+        text-align: center
+        line-height: 1.3
+
+
+.reports
+  .report
+    width: 100%
+    height: 210px
+    margin-bottom: 85px
+
+    &.first
+      background: url('/images/report_1.jpg') no-repeat
+
+    &:nth-child(2n)
+      background-position: right
+
+      .info
+        padding-left: 0px
+
+    .info
+      padding-left: 390px
+      padding-top: 37px
+      width: 570px
+
+      .report-name
+        font-family: "GothamProBoldItalic"
+        font-size: 20px
+        color: #8e9599
+
+        .red
+          color: #b01d1d
+
+      .report-text
+        padding-top: 35px
+        font-family: 'GothamProReg'
+        font-size: 14px
+        line-height: 1.3
+        color: #212426
+
+.contacts
+  padding: 25px 0
+  height: 100px
+  line-height: 100px
+  background: url('/images/contacts_bg.jpg') no-repeat
+  background-position: center
+  text-align: center
+  font-size: 24px
+  font-family: "GothamProBoldItalic"
+  color: #fff
+
+#map
+  width: 100%
+  height: 500px
+
+.footer
+  background: #fff
+  height: 100px
+
+  .left
+    float: left
+    padding-top: 30px
+
+  .right
+    padding-top: 30px
+    float: right
+

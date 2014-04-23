@@ -1,0 +1,12 @@
+%html
+  %head
+    = css :application
+    %script{src: 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false'}
+    = js :application
+    %link{rel: "shortcut icon", href: "/favicon.ico"}
+    %title
+      Чиптюнинг автомобилей
+  %body
+    = yield
+    = haml :modal
+    -#= erb :metrika
