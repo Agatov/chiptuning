@@ -141,7 +141,7 @@ window.shake = (field, i) ->
     field.animate({height: '+=10'}, 100)
 
 window.reach_goal = (goal) ->
-#  yaCounter24590714.reachGoal(goal)
+  yaCounter24781781.reachGoal(goal)
 
 
 
