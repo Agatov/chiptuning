@@ -24,13 +24,13 @@ function initialize() {
 
 
     var Marker = new google.maps.Marker({
-        position: new google.maps.LatLng(55.688913, 37.437945),
+        position: new google.maps.LatLng(55.68955, 37.439),
         map: map,
         icon: {
             url: '/images/marker.png',
-            size: new google.maps.Size(67,98),
+            size: new google.maps.Size(32,50),
             origin: new google.maps.Point(0,0),
-            anchor: new google.maps.Point(35, 95)
+            anchor: new google.maps.Point(32,50)
         }
     });
 //    map.mapTypes.set('map_style', styledMap);
